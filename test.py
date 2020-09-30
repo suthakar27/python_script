@@ -1,14 +1,8 @@
-def findLength(string): 
-  
-    # Initialize count to zero 
-    count = 0
-  
-    # Counting character in a string 
-    for i in string: 
-        count+= 1
-    # Returning count 
-    return count 
-  
-# Driver code 
-string = "geeksforgeeks"
-print(findLength(string)) 
+#!/usr/bin/python
+
+import platform
+var1=platform.system()
+
+print(platform.system())
+
+print(var1)
