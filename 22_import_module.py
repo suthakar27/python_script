@@ -10,4 +10,4 @@ for v in var1:
 	val=getattr(platform,v)()
 	print("{} : {}".format(v,val))
      except:
-	print("This is not applicable: {}".format(v))
+	print("Not applicable: {}".format(v))
